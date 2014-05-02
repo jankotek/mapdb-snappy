@@ -8,6 +8,37 @@
     <artifactId>mapdb-snappy</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <name>mapdb-snappy</name>
+    <description>Provides Snappy compression for MapDB database</description>
+    <url>http://www.mapdb.org</url>
+
+    <packaging>bundle</packaging>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Jan Kotek</name>
+            <id>jan</id>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:jankotek/mapdb-snappy.git</connection>
+        <developerConnection>scm:git:git@github.com:jankotek/mapdb-snappy.git</developerConnection>
+        <url>git@github.com:jankotek/mapdb-snappy.git</url>
+    </scm>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.xerial.snappy</groupId>
