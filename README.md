@@ -10,7 +10,7 @@ To use add this maven dependency:
         <dependency>
             <groupId>org.mapdb</groupId>
             <artifactId>mapdb-snappy</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 ```
